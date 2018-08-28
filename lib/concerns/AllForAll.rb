@@ -14,7 +14,9 @@ module AllForAll
   end
   
   module InstanceMethods
-    
+    def save
+    self.all << self 
+  end
     
   end
 end
