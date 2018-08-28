@@ -2,6 +2,8 @@ class Artist
   attr_accessor :name, :song, :songs
   
   extend Concerns::Findable
+  extend AllForAll::ClassMethods
+  include AllForAll::InstanceMethods
   
   @@all = []
   
