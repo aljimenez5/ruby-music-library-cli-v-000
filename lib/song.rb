@@ -3,6 +3,8 @@ class Song
   attr_reader :artist, :genre
   
   extend Concerns::Findable
+  extend AllForAll::ClassMethods
+  include AllForAll::InstanceMethods
   
   @@all = []
   
