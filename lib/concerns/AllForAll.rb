@@ -10,10 +10,6 @@ module AllForAll
     new_artist.save
     new_artist
   end
-  
-end
-    
-    
     
   end
   
