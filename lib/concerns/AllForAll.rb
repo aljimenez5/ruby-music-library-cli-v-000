@@ -2,7 +2,7 @@ module AllForAll
   
   module InstanceMethods
     def save
-      self.all << self 
+      self.class.all << self 
     end
   end
   
