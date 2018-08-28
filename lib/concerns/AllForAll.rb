@@ -1,4 +1,11 @@
 module AllForAll
+  
+  module InstanceMethods
+    def save
+      self.all << self 
+    end
+  end
+  
   module ClassMethods
   
     def destroy_all
@@ -13,10 +20,7 @@ module AllForAll
     
   end
   
-  module InstanceMethods
-    def save
-      self.all << self 
-    end
+  
     
-  end
+  
 end
