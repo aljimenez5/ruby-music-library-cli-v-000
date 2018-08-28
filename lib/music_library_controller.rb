@@ -5,7 +5,6 @@ class MusicLibraryController
   end
   
   def call
-    call_input = ""
     while call_input != "exit"
       case call_input 
       when "list songs"
