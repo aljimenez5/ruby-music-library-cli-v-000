@@ -13,9 +13,9 @@ module AllForAll
     end
     
     def create(name)
-      new_artist = self.new(name)
-      new_artist.save
-      new_artist
+      newnew = self.new(name)
+      newnew.save
+      newnew
     end
   end
 end
