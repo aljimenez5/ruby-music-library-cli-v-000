@@ -4,6 +4,7 @@ class Genre
   
   extend Concerns::Findable
   extend AllForAll::ClassMethods
+  include AllForAll::InstanceMethods
   
   @@all = []
   
