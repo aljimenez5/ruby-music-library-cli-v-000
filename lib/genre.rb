@@ -15,12 +15,6 @@ class Genre
     @@all
   end
   
-  def self.create(name)
-    new_genre = Genre.new(name)
-    new_genre.save
-    new_genre
-  end
-  
   def artist 
     genre.artist = self
   end
