@@ -3,6 +3,7 @@ class Genre
   attr_reader :genre
   
   extend Concerns::Findable
+  extend AllForAll::ClassMethods
   
   @@all = []
   
