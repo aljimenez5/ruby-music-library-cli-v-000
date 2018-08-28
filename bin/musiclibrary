@@ -4,7 +4,6 @@ require_relative '../config/environment'
 
 MusicLibraryController.new.call
 
-call
 call_input = ""
 puts "Welcome to your music library!"
 puts "To list all of your songs, enter 'list songs'."
