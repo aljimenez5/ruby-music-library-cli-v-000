@@ -19,8 +19,4 @@ module AllForAll
     end
     
   end
-  
-  
-    
-  
 end
