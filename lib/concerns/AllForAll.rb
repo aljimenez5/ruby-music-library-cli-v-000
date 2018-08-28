@@ -6,7 +6,6 @@ module AllForAll
     
   end
   
-  
   module InstanceMethods
     
     
